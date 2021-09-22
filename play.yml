@@ -1,0 +1,4 @@
+hosts: test
+
+task: 
+  - shell: echo $(du -h) > /tmp/ansible-file
